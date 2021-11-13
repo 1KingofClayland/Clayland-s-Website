@@ -3,24 +3,22 @@
     padding:0;
     box-sizing:border-box;
 }
-body{
-    background-color:#d3ffda;
-}
 h1{
-    font-size:2.4em;
+    font-size:1.35em;
     font-family: 'Merriweather', serif;
 }
 h2{
-    font-size:2em;
+    font-size:1.1em;
     font-family: 'Merriweather', serif;
 }
 h3{
-    font-size:1.6em;
+    font-size:1em;
     font-family: 'Merriweather', serif;
 }
 p{
-    font-size:1em;
+    font-size:0.55em;
     font-family: 'Roboto Slab', serif;
+    line-height:1.5em;
 }
 .logo{
     height:3em;
@@ -32,31 +30,121 @@ p{
 .navbar{
     padding-top:0.3em;
     height:4em;
-    width:98%;
-    border-bottom: 0.5em solid #4a5542;
+    width:100%;
+    border: 0.3em solid #4a5542;
+    border-top:0;
     position:fixed;
-    left:1%;
     z-index:1;
     background-color:#78fa8e;
     text-align:center;
 }
 nav{
-    padding:0.5em;
-    height:3.65em;
-    width:9em;
+    padding-top:1em;
+    height:3.7em;
+    width:5.35em;
     position:relative;
-    bottom:1em;
+    bottom:1.2em;
     display:inline-block;
     text-align:center;
+}
+.navshort{
+    width:3.9em;
 }
 nav:hover{
     background-color:#41e05c;
 }
 section{
+    padding:0.2em 0.4em 0.2em;
     height:200em;
-    width:90%;
+    width:100%;
     position:relative;
     top:4em;
-    left:5%;
     background-image:linear-gradient(#acd898,#b8d399, #acd898)
+}
+@media only screen and (min-width:768px){
+    body{
+        background-color:#d3ffda;
+    }
+    h1{
+        font-size:1.75em;
+    }
+    h2{
+        font-size:1.5em;
+    }
+    h3{
+        font-size:1.4em;
+    }
+    p{
+        font-size:0.85em;
+    }
+    .logo{
+        height:4em;
+        width:4em;
+        border-radius:4em;
+    }
+    .navbar{
+        height:5em;
+        width:98%;
+        border-bottom: 0.4em solid #4a5542;
+        left:1%;
+    }
+    nav{
+        padding-top:1.35em;
+        height:4.6em;
+        width:9em;
+        bottom:1.45em;
+    }
+    .navshort{
+        width:7em;
+    }
+    section{
+        padding:0.2em 0.6em 0.2em;
+        height:200em;
+        width:90%;
+        position:relative;
+        top:5em;
+        left:5%;
+    }
+}
+@media only screen and (min-width:1000px){
+    h1{
+        font-size:2em;
+    }
+    h2{
+        font-size:1.75em;
+    }
+    h3{
+        font-size:1.65em;
+    }
+    p{
+        font-size:1.25em;
+    }
+    .logo{
+        height:5em;
+        width:5em;
+        border-radius:5em;
+    }
+    .navbar{
+        height:6em;
+        width:96%;
+        border-bottom: 0.5em solid #4a5542;
+        left:2%;
+    }
+    nav{
+        padding-top:1.6em;
+        height:5.5em;
+        width:8em;
+        bottom:2em;
+    }
+    .navshort{
+        width:7em;
+    }
+    section{
+        padding:0.2em 0.8em 0.2em;
+        height:200em;
+        width:90%;
+        position:relative;
+        top:6em;
+        left:5%;
+    }
 }
