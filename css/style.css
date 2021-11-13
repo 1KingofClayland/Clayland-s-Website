@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#d3ffda;
+}
+h1{
+    font-size:2.4em;
+    font-family: 'Merriweather', serif;
+}
+h2{
+    font-size:2em;
+    font-family: 'Merriweather', serif;
+}
+h3{
+    font-size:1.6em;
+    font-family: 'Merriweather', serif;
+}
+p{
+    font-size:1em;
+    font-family: 'Roboto Slab', serif;
+}
+.logo{
+    height:3em;
+    width:3em;
+    border-radius:3.5em;
+    object-fit:cover;
+    object-position:75% 50%;
+}
+.navbar{
+    padding-top:0.3em;
+    height:4em;
+    width:98%;
+    border-bottom: 0.5em solid #4a5542;
+    position:fixed;
+    left:1%;
+    z-index:1;
+    background-color:#78fa8e;
+    text-align:center;
+}
+nav{
+    padding:0.5em;
+    height:3.65em;
+    width:9em;
+    position:relative;
+    bottom:1em;
+    display:inline-block;
+    text-align:center;
+}
+nav:hover{
+    background-color:#41e05c;
+}
+section{
+    height:200em;
+    width:90%;
+    position:relative;
+    top:4em;
+    left:5%;
+    background-image:linear-gradient(#acd898,#b8d399, #acd898)
+}
