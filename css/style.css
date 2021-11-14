@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 h1{
-    font-size:1.35em;
+    font-size:1.3em;
     font-family: 'Merriweather', serif;
 }
 h2{
@@ -19,6 +19,9 @@ p{
     font-size:0.55em;
     font-family: 'Roboto Slab', serif;
     line-height:1.5em;
+}
+a{
+    color:#000000;
 }
 .logo{
     height:3em;
@@ -89,7 +92,7 @@ footer img{
         background-color:#d3ffda;
     }
     h1{
-        font-size:1.75em;
+        font-size:1.9em;
     }
     h2{
         font-size:1.5em;
@@ -146,7 +149,7 @@ footer img{
 }
 @media only screen and (min-width:1000px){
     h1{
-        font-size:2em;
+        font-size:2.1em;
     }
     h2{
         font-size:1.75em;
@@ -180,7 +183,7 @@ footer img{
     }
     section{
         padding:0.2em 0.8em 0.2em;
-        height:100em;
+        height:200em;
         width:90%;
         position:relative;
         top:6em;
