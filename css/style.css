@@ -32,7 +32,7 @@ p{
     height:4em;
     width:100%;
     border: 0.3em solid #4a5542;
-    border-top:0;
+    border-top:0em;
     position:fixed;
     z-index:1;
     background-color:#78fa8e;
@@ -59,7 +59,30 @@ section{
     width:100%;
     position:relative;
     top:4em;
+    background-color:#acd898;
     background-image:linear-gradient(#acd898,#b8d399, #acd898)
+}
+footer{
+    padding: 0em 0.3em;
+    height:2.5em;
+    width:100%;
+    border: 0.3em solid #4a5542;
+    border-bottom:0em;
+    position:relative;
+    top:4em;
+    background-color:#78fa8e;
+}
+footer p{
+    
+    margin:1.1em 0.3em;
+    float:left;
+}
+footer img{
+    margin:0.2em 0em;
+    height:1.75em;
+    width:1.75em;
+    border-radius:1.75em;
+    float:right;
 }
 @media only screen and (min-width:768px){
     body{
@@ -75,7 +98,7 @@ section{
         font-size:1.4em;
     }
     p{
-        font-size:0.85em;
+        font-size:0.95em;
     }
     .logo{
         height:4em;
@@ -85,7 +108,8 @@ section{
     .navbar{
         height:5em;
         width:98%;
-        border-bottom: 0.4em solid #4a5542;
+        border: 0.4em solid #4a5542;
+        border-top:0em;
         left:1%;
     }
     nav{
@@ -104,6 +128,20 @@ section{
         position:relative;
         top:5em;
         left:5%;
+    }
+    footer{
+        padding: 0em 0.5em;
+        height:3.5em;
+        border-width: 0.4em;
+    }
+    footer p{
+        margin:0.8em 0.5em;
+    }
+    footer img{
+        margin:0.2em 0em;
+        height:2.5em;
+        width:2.5em;
+        border-radius:2.5em;
     }
 }
 @media only screen and (min-width:1000px){
@@ -127,7 +165,8 @@ section{
     .navbar{
         height:6em;
         width:96%;
-        border-bottom: 0.5em solid #4a5542;
+        border: 0.5em solid #4a5542;
+        border-top:0em;
         left:2%;
     }
     nav{
@@ -141,10 +180,24 @@ section{
     }
     section{
         padding:0.2em 0.8em 0.2em;
-        height:200em;
+        height:100em;
         width:90%;
         position:relative;
         top:6em;
         left:5%;
+    }
+    footer{
+        padding: 0em 0.6em;
+        height:5em;
+        border-width: 0.5em;
+    }
+    footer p{
+        margin:0.9em 0.4em;
+    }
+    footer img{
+        margin:0.2em 0em;
+        height:4em;
+        width:4em;
+        border-radius:4em;
     }
 }
