@@ -5,11 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
-        <title>Clayland's Website</title>
+        <link rel="stylesheet" href="css/contacts.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+        <title>Clayland's Website</title>
     </head>
     <body>
         <div class="navbar">
@@ -21,7 +22,25 @@
         <section>
             <h1>Contacts</h1>
             <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aspernatur officia id rerum sint quas, itaque quis ratione eos placeat, similique assumenda laboriosam voluptas sunt asperiores magni quia animi eaque.</p>
+                <form>
+                    <label for="fname">First Name</label>
+                    <br>
+                    <input type="text" id="fname" name="fname" placeholder="your first name"></input>
+                    <br>
+                    <label for="lname">Last Name</label>
+                    <br>
+                    <input type="text" id="lname" name="lname" placeholder="your last name"></input>
+                    <br>
+                    <label for="email">Email Address</label>
+                    <br>
+                    <input type="text" id="email" name="email" placeholder="your email address"></input>
+                    <br>
+                    <label for="subject">Subject</label>
+                    <br>
+                    <textarea class="subject" type="text" id="subject" name="subject" placeholder="write here"></textarea>
+                    <br>
+                    <button class="submit">Submit</button>
+                </form>
             </article>
         </section>
         <footer>
